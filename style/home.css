@@ -50,7 +50,8 @@ div.work
 }
 div.Process{
 	background-color:#ffffff;
-	height:63em;
+	padding-top:90px;
+	padding-bottom:90px;
 }
 div.testimonials{
 	background-color:#10c9c3;
@@ -79,9 +80,7 @@ div.services{
 	background-color:#f5f5f5;
 	height:36em;
 }
-div.center_about
-{
-}
+
 #footcen
 {
 	text-align:center;
@@ -129,13 +128,6 @@ textarea{
 	margin-bottom:0px;
 	margin-top:10px;
 }
-.about>h2{
-	text-align:center;
-	font-weight:bold;
-}
-.Process>p{
-	color:#838383;
-}
 .need>p
 {
 	color:#838383;
@@ -170,6 +162,8 @@ p.about
 }
 h2.about
 {
+	text-align:center;
+	font-weight:bold;
 	margin-left:auto;
 	margin-right:auto;
 	width:50%;
@@ -184,4 +178,24 @@ p.testimonials
 	width:70%;
 	padding:10px;
 	font-size:20px;
+}
+h2.Process{
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+p.Process{
+	text-align:center;
+	color:#838383;
+	margin:25px;
+	line-height:1.4em;
+}
+video.display3{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:25px;
+	width:80%;
+	height:670px;
 }
