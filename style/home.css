@@ -27,8 +27,10 @@ div.header{
 }
 div.about{
 	backgraund-color:#ffffff;
-	height:28.85em;
+	padding-top:100px;
+	padding-bottom:100px;
 }
+
 div.skills{
 	background-color:#f8f9f9;
 	font-family:Gotham Pro;
@@ -53,7 +55,9 @@ div.Process{
 div.testimonials{
 	background-color:#10c9c3;
 	color:#ffffff;
-	height:33.73em;
+	padding-top:170px;
+	padding-bottom:40px;
+	
 }
 div.need{
 	background-color:#f5f5f5;
@@ -74,6 +78,9 @@ div.dients{
 div.services{
 	background-color:#f5f5f5;
 	height:36em;
+}
+div.center_about
+{
 }
 #footcen
 {
@@ -118,19 +125,9 @@ textarea{
 	font-family:Gotham Pro;
 	font-weight:400;
 	font-size:12px;
-}
-.about>p{
-	color:#838383;
 	text-align:center;
-	font-family:Verdana;
-	line-height:1.4em;
-	
-}
-.testimonials>p
-{
-	font-size:18px;
-	text-align:center;
-	line-height:1.4em;
+	margin-bottom:0px;
+	margin-top:10px;
 }
 .about>h2{
 	text-align:center;
@@ -147,4 +144,44 @@ textarea{
 {
 	word-spacing:1em;
 	text-align:right;
+}
+img.display{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+img.display2{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:80px;
+	margin-bottom:0px;
+}
+p.about
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	padding:10px;
+	color:#838383;
+	text-align:center;
+	font-family:Verdana;
+	line-height:1.5em;
+}
+h2.about
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	padding:10px;
+}
+p.testimonials
+{
+	text-align:center;
+	line-height:1.4em;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	padding:10px;
+	font-size:20px;
 }
