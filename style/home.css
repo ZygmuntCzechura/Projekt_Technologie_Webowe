@@ -46,12 +46,7 @@ div.feedbacks{
 	color:#ffffff;
 	padding:100px;
 }
-div.work
-{
-	background-color:#f5f5f5;
-	color:#838383;
-	height:47em;
-}
+
 div.Process{
 	background-color:#ffffff;
 	padding-top:90px;
@@ -167,34 +162,14 @@ textarea{
 	text-align:left;
 	list-style-type:none;
 }
-#img1{
+#img1,#img2,#img3,#img4{
 	float:left;
 	width:25%;
 	margin-left:auto;
 	margin-right:auto;
 	background-color:#10c9c3;
 }
-#img2{
-	float:left;
-	width:25%;
-	margin-left:auto;
-	margin-right:auto;
-	background-color:#10c9c3;
-}
-#img3{
-	float:left;
-	width:25%;
-	margin-left:auto;
-	margin-right:auto;
-	background-color:#10c9c3;
-}
-#img4{
-	float:left;
-	width:25%;
-	margin-left:auto;
-	margin-right:auto;
-	background-color:#10c9c3;
-}
+
 .both
 {
 	clear:both;
@@ -298,7 +273,7 @@ img.workimg{
 	display:block;
 	margin:0 auto;
 }
-#imgw1
+#imgw1,#imgw5
 {
 	background-color:#e7e6e4;
 	width:25%;
@@ -330,8 +305,48 @@ img.workimg{
 	padding-bottom:20px;
 	float:left;
 }
+#imgw5
+{
+	background-color:#dedfe4;
+	width:25%;
+	padding-top:20px;
+	padding-bottom:20px;
+	float:left;
+}
+#imgw6
+{
+	background-color:#e4e3e1;
+	width:25%;
+	padding-top:20px;
+	padding-bottom:20px;
+	float:left;
+}
+#imgw7
+{
+	background-color:#ffffff;
+	width:25%;
+	padding-top:20px;
+	padding-bottom:20px;
+	float:left;
+}
+#imgw8
+{
+	background-color:#e7e7e7;
+	width:25%;
+	padding-top:20px;
+	padding-bottom:20px;
+	float:left;
+}
 div.test
 {
 	background-color:red;
 	height:100px;
+}
+div.work
+{
+	background-color:#f5f5f5;
+	color:#838383;
+	text-align:center;
+	margin: 0 auto;
+	padding:30px;
 }
