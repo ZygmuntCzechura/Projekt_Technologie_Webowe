@@ -9,7 +9,9 @@ h1,h2,h3{
 li{
 	margin-bottom:5px;
 }
-
+ul{
+	list-style-type:none;
+}
 h4.footer{
 	color:White;
 	font-family:Gotham Pro;
@@ -100,7 +102,8 @@ div.services{
 	color:#10c9c3;
 }
 .baton{
-	padding: 16px 32px 16px 32px;
+	margin-top:40px;
+	padding: 20px 50px 20px 50px;
 	font-family:Gotham Pro;
 	font-weight:100;
 	color:#ffffff;
@@ -119,6 +122,8 @@ textarea{
 	color:white;
 }
 #headerp{
+	padding-top:20px;
+	line-height:1.5em;
 	color:#838383;
 }
 #hopkins{
@@ -184,11 +189,6 @@ textarea{
 .need>p
 {
 	color:#838383;
-}
-#spac
-{
-	word-spacing:1em;
-	text-align:right;
 }
 img.display{
 	display:block;
@@ -369,4 +369,39 @@ div.work
 {
 	margin:0 auto;
 	padding:30px 0px;
+}
+
+img.lis
+{
+	padding-left:50px;
+	display:block;
+	margin:0 auto;
+	float:left;
+}
+li.lis
+{
+	display:inline;
+	margin-right:20px;
+	font-family:Gotham Pro;
+	font-weight:bold;
+}
+
+ul.lis
+{
+	padding-right:50px;
+	padding-top:10px;
+	float:right;
+}
+div.textheader{
+	float:right;
+}
+div.headerleft{
+	width:60%;
+	float:left;
+	height:1px;
+}
+div.headerright{
+	padding-top:230px;
+	width:40%;
+	float:left;
 }
