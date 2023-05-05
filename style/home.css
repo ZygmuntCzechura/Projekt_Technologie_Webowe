@@ -446,7 +446,7 @@ h1.You
 #about2
 {
 	width:60%;
-	background-color:red;
+	background-color:#f5f5f5;
 	padding:150px 0px 150px 0px;
 	float:left;
 	margin: 0 auto;
@@ -455,25 +455,25 @@ h1.You
 }
 #about2part2
 {
-	background-color:green;
+	display:block;
 	width:40%;
-	height:508px;
+	height:615px;
 	float:left;
 }
 h2.You
 {
-	background-color:blue;
 	padding:10px 0px 30px 0px;
 	margin-left:150px;
 	font-weight:bold;
 }
 p.about2
 {
-	background-color:yellow;
+	color:#797979;
 	margin-left:150px;
 }
-div.Need
+#signature2
 {
-	background-color:pink;
-	padding:100px 0px;
+	display:block;
+	margin-left:150px;
+	padding-top:40px;
 }
