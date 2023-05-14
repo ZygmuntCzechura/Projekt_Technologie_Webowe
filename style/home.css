@@ -1,25 +1,18 @@
+@font-face{
+	font-family:'Gotham';
+	src: url('GothamPro-Light.woff') format('woff');}
 *{
 	margin:0px;
 	padding:0px;
 }
+body{
+	margin:100px;
+	font-family:'Gotham',Verdana,sans-serif;}
 h1,h2,h3{
-	font-family:Gotham Pro;
-	font-weight:400;
-}
-li{
-	margin-bottom:5px;
-}
+	font-weight:bold;}
 ul{
-	list-style-type:none;
-}
-h4.footer{
-	color:White;
-	font-family:Gotham Pro;
-	font-weight:400;
-	font-size:16px;
-}
+	list-style-type:none;}
 p{
-	font-family:Gotham Pro;
 	font-weight:100;
 }
 a{
@@ -27,6 +20,8 @@ a{
 }
 div.header{
 	background-image:url('../images/header.jpg');
+	background-size:cover;
+	background-position:center;
 	padding:20px;
 	margin:0px;
 	height:45em;
@@ -40,7 +35,6 @@ div.about{
 
 #skills{
 	background-color:#eaeff3;
-	font-family:Gotham Pro;
 	font-weight:100;
 	float:left;
 	margin:0 auto;
@@ -75,15 +69,6 @@ div.need{
 	height:50.67em;
 	padding-top:80px;
 }
-div.footer{
-	background-color:black;
-	font-family:Gotham Pro;
-	font-weight:100;
-	color:#838383;
-	font-size:12px;
-	padding:100px;
-}
-
 
 #tab1
 {
@@ -101,7 +86,6 @@ div.footer{
 .baton{
 	margin-top:30px;
 	padding: 20px 50px 20px 50px;
-	font-family:Gotham Pro;
 	font-weight:100;
 	color:#ffffff;
 	background-color:#10c9c3;
@@ -117,53 +101,13 @@ div.footer{
 	color:#838383;
 }
 #hopkins{
-	font-family:Gotham Pro;
 	font-weight:400;
 	font-size:12px;
 	text-align:center;
 	margin-bottom:0px;
 	margin-top:10px;
 }
-#foot1{
-	background-color:black;
-	width:30%;
-	float:left;
-}
-#foot2{
-	background-color:inherit;
-	width:35%;
-	text-align:center;
-	float:left;
-}
-#ul1{
-	background-color:inherit;
-	float:left;
-	width:5%;
-	text-align:left;
-	
-}
 
-#ul2{
-	background-color:inherit;
-	float:left;
-	width:10%;
-	text-align:left;
-	
-}
-#ul3{
-	background-color:inherit;
-	float:left;
-	width:15%;
-	list-style-type:none;
-
-}
-#ul4{
-	background-color:inherit;
-	float:left;
-	width:5%;
-	text-align:left;
-	list-style-type:none;
-}
 #img1,#img2,#img3,#img4{
 	float:left;
 	width:25%;
@@ -200,7 +144,6 @@ p.about
 	padding:10px;
 	color:#838383;
 	text-align:center;
-	font-family:Verdana;
 	line-height:1.5em;
 }
 h2.about,h1.about
@@ -242,13 +185,11 @@ video.display3{
 	height:670px;
 }
 
-ul.footer{
-	list-style-type:none;
-}
-ul.invis{
-	list-style-type:none;
+
+/*ul.invis{
 	visibility:hidden;
 }
+*/
 .imgleft
 {
 	float:left;
@@ -258,7 +199,6 @@ ul.invis{
 	padding:20px;
 	line-height:1.6em;
 	font-size:12px;
-	font-family:Arial;
 	font-weight:600;
 }
 b{
@@ -399,7 +339,6 @@ li.lis
 {
 	display:inline;
 	margin-right:20px;
-	font-family:Gotham Pro;
 	font-weight:bold;
 }
 
@@ -531,3 +470,34 @@ textarea
 	resize:none;
 	font-size:120%;
 }
+
+
+
+/* Footer Style */
+
+footer{
+	background-color:black;
+	color:#838383;
+	font-size:12px;
+	padding:100px;}
+	
+h4.footer{
+	color:White;
+	font-size:16px;}
+	
+ul.footer{
+	float:left;
+	line-height:1.5em;
+	width:10%;
+	text-align:left;}
+	
+div.footer{
+	width:25%;
+	float:left;
+	margin:0 auto;}
+
+#invis{
+	visibility:hidden;
+	float:left;
+	width:10%;
+	text-align:left;}
