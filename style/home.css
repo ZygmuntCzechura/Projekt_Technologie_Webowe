@@ -196,94 +196,7 @@ b{
 	font-size:18px;
 	font-weight:500;
 }
-img.workimg{
-	display:block;
-	margin:0 auto;
-}
-section.working{
-	display:flex;
-	flex-wrap:wrap;
-}
 
-
-#imgw1,#imgw5
-{
-	background-color:#e7e6e4;
-	width:25%;
-	float:left;
-}
-#imgw2
-{
-	background-color:#eeeeee;
-	width:25%;
-	padding-top:20px;
-	padding-bottom:20px;
-	float:left;
-}
-
-#imgw3
-{
-	background-color:#e1e1e1;
-	width:25%;
-	padding-top:20px;
-	padding-bottom:20px;
-	float:left;
-}
-#imgw4
-{
-	background-color:#efefef;
-	width:25%;
-	padding-top:20px;
-	padding-bottom:20px;
-	float:left;
-}
-#imgw5
-{
-	background-color:#dedfe4;
-	width:25%;
-	padding-top:20px;
-	padding-bottom:20px;
-	float:left;
-}
-#imgw6
-{
-	background-color:#e4e3e1;
-	width:25%;
-	padding-top:20px;
-	padding-bottom:20px;
-	float:left;
-}
-#imgw7
-{
-	background-color:#ffffff;
-	width:25%;
-	padding-top:20px;
-	padding-bottom:20px;
-	float:left;
-}
-#imgw8
-{
-	background-color:#e7e7e7;
-	width:25%;
-	padding-top:20px;
-	padding-bottom:20px;
-	float:left;
-}
-
-div.test
-{
-	background-color:red;
-	height:100px;
-}
-div.work
-{
-	background-color:#f5f5f5;
-	color:#838383;
-	text-align:center;
-	width:100%;
-	margin: 0 auto;
-	padding:30px;
-}
 #d1img,#d2img,#d3img,#d4img,#d5img
 {
 	width:20%;
@@ -394,16 +307,39 @@ textarea
 }
 
 
-.container {
+
+/* Section_works Style */
+
+section.Section_works{
+	display:flex;
+	flex-wrap:wrap;}
+	
+div.Section_works {
   width:25%;
   position: relative;
-  display: inline-block;
-}
-img.Test{
+  display: flex;
+  height:300px;
+  justify-content: center;
+  align-items: center;}
+  
+.Size_image{
 	width:100%;
-	display:block;
-}
-.container::before {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height:100%;}
+	
+.image1{background-color:#e7e6e4;}
+.image2{background-color:#eeeeee;}
+.image3{background-color:#e1e1e1;}
+.image4{background-color:#efefef;}
+.image5{background-color:#dedfe4;}
+.image6{background-color:#e4e3e1;}
+.image7{background-color:#ffffff;}
+.image8{background-color:#e7e7e7;}
+
+
+div.Section_works::before {
   content:"";
   position: absolute;
   top: 0;
@@ -416,13 +352,20 @@ img.Test{
   background-color:rgba(52,52,52,0.9);
   opacity: 0;
   transition: opacity 0.3s ease;
-  z-index: 1;
-}
+  z-index: 1;}
 
-.container:hover::before {
-  opacity: 1;
-}
-
+div.Section_works:hover::before {
+  opacity: 1;}
+  
+.work
+{
+  background-color:#f5f5f5;
+  color:#838383;
+  text-align:center;
+  padding:30px;
+  width:100%;}
+  
+  
 
 /* Footer Style */
 
