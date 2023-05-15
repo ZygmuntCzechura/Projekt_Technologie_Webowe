@@ -3,26 +3,20 @@
 	src: url('GothamPro-Light.woff') format('woff');}
 *{
 	margin:0px;
-	padding:0px;
-}
+	padding:0px;}
 body{
 	font-family:'Gotham',Verdana,sans-serif;}
 h1,h2,h3{
 	font-weight:bold;}
 ul{
 	list-style-type:none;}
-p{
-	font-weight:100;
-}
 a{
-	text-decoration:none;
-}
-div.header{
+	text-decoration:none;}
+header{
 	background-image:url('../images/picture1.jpg');
 	background-position:center right;
 	background-repeat:no-repeat;
 	padding:20px;
-	margin:0px;
 	height:45em;
 }
 div.about{
@@ -206,12 +200,16 @@ img.workimg{
 	display:block;
 	margin:0 auto;
 }
+section.working{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+
 #imgw1,#imgw5
 {
 	background-color:#e7e6e4;
 	width:25%;
-	padding-top:20px;
-	padding-bottom:20px;
 	float:left;
 }
 #imgw2
@@ -222,10 +220,7 @@ img.workimg{
 	padding-bottom:20px;
 	float:left;
 }
-#imgw2:hover
-{
-	background-color:red;
-}
+
 #imgw3
 {
 	background-color:#e1e1e1;
@@ -234,7 +229,7 @@ img.workimg{
 	padding-bottom:20px;
 	float:left;
 }
-#imgw4,#imgw9
+#imgw4
 {
 	background-color:#efefef;
 	width:25%;
@@ -274,30 +269,7 @@ img.workimg{
 	padding-bottom:20px;
 	float:left;
 }
-#imgw10
-{
-	background-color:#d8d8d8;
-	width:25%;
-	padding-top:20px;
-	padding-bottom:20px;
-	float:left;
-}
-#imgw11
-{
-	background-color:#f0f0f2;
-	width:25%;
-	padding-top:20px;
-	padding-bottom:20px;
-	float:left;
-}
-#imgw12
-{
-	background-color:#d4d4d4;
-	width:25%;
-	padding-top:20px;
-	padding-bottom:20px;
-	float:left;
-}
+
 div.test
 {
 	background-color:red;
@@ -308,6 +280,7 @@ div.work
 	background-color:#f5f5f5;
 	color:#838383;
 	text-align:center;
+	width:100%;
 	margin: 0 auto;
 	padding:30px;
 }
@@ -380,60 +353,6 @@ p.services2
 {
 	padding:10px 0px;
 }
-div.header2
-{
-	background-color:#e3e4e9;
-	padding-bottom:60px;
-	padding-top:25px;
-}
-div.You{
-	color:white;
-	background-image:url('../images/about2.jpg');
-	background-size:cover;
-	background-position:center;
-	text-align:center;
-	letter-spacing:0.1em;
-	line-height:1.5em;
-	padding:170px 0px;
-}
-h1.You
-{
-	padding:10px 0px 30px 0px;
-}
-#about2
-{
-	width:60%;
-	background-color:#f5f5f5;
-	padding:150px 0px 150px 0px;
-	float:left;
-	margin: 0 auto;
-	letter-spacing:0.1em;
-	line-height:1.5em;
-}
-#about2part2
-{
-	display:block;
-	width:40%;
-	height:615px;
-	float:left;
-}
-h2.You
-{
-	padding:10px 0px 30px 0px;
-	margin-left:150px;
-	font-weight:bold;
-}
-p.about2
-{
-	color:#797979;
-	margin-left:150px;
-}
-#signature2
-{
-	display:block;
-	margin-left:150px;
-	padding-top:40px;
-}
 input.Input{
 	margin-top:20px;
 	width:100%;
@@ -474,6 +393,35 @@ textarea
 	font-size:14px;
 }
 
+
+.container {
+  width:25%;
+  position: relative;
+  display: inline-block;
+}
+img.Test{
+	width:100%;
+	display:block;
+}
+.container::before {
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:url('../images/eye.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-color:rgba(52,52,52,0.9);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.container:hover::before {
+  opacity: 1;
+}
 
 
 /* Footer Style */
