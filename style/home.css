@@ -17,7 +17,16 @@ header{
 	background-position:center right;
 	background-repeat:no-repeat;
 	padding:20px;
-	height:45em;
+	height:45em;}
+
+	
+	
+	
+	
+section.Section_working{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
 }
 div.about{
 	backgraund-color:#ffffff;
@@ -50,17 +59,12 @@ div.Process{
 	padding-top:90px;
 	padding-bottom:90px;
 }
-div.testimonials{
-	background-color:#10c9c3;
-	color:#ffffff;
-	padding-top:170px;
-	padding-bottom:40px;
-	
-}
-div.need{
+
+section.Section_need{
 	background-color:#f5f5f5;
 	height:50.67em;
 	padding-top:80px;
+	width:100%;
 }
 
 #tab1
@@ -94,13 +98,7 @@ div.need{
 	line-height:1.5em;
 	color:#838383;
 }
-#hopkins{
-	font-weight:400;
-	font-size:12px;
-	text-align:center;
-	margin-bottom:0px;
-	margin-top:10px;
-}
+
 
 #img1,#img2,#img3,#img4{
 	float:left;
@@ -148,16 +146,6 @@ h2.about,h1.about
 	margin-right:auto;
 	padding:10px;
 }
-p.testimonials
-{
-	text-align:center;
-	line-height:1.4em;
-	margin-left:auto;
-	margin-right:auto;
-	width:70%;
-	padding:10px;
-	font-size:20px;
-}
 h2.Process{
 	width:50%;
 	margin-left:auto;
@@ -197,8 +185,11 @@ b{
 	font-weight:500;
 }
 
-#d1img,#d2img,#d3img,#d4img,#d5img
+.working
 {
+	display:flex;
+	justify-content: center;
+	align-items: center;
 	width:20%;
 	float:left;
 	padding:30px 0px;
@@ -244,28 +235,7 @@ div.headerright{
 	width:35%;
 	float:left;
 }
-div.services
-{
-	background-color:#f5f5f5;
-	width:25%;
-	padding:70px 0px;
-	text-align:center;
-	line-height:1.5em;
-	letter-spacing:0.1em;
-	float:left;
-}
-img.services
-{
-	padding:10px 0px;
-}
-p.services
-{
-	color:#787878;
-}
-p.services2
-{
-	padding:10px 0px;
-}
+
 input.Input{
 	margin-top:20px;
 	width:100%;
@@ -306,6 +276,59 @@ textarea
 	font-size:14px;
 }
 
+
+
+/* Testymonials style */
+
+section.testimonials{
+	background-color:#10c9c3;
+	color:#ffffff;
+	text-align:center;
+	padding-top:170px;
+	padding-bottom:40px;
+	line-height:1.4em;
+	display:flex;
+	flex-direction:column;
+	align-items:center;}
+	
+p.testimonials
+{
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	font-size:120%;}
+
+#hopkins{
+	font-size:80%;
+	text-align:center;
+	margin-bottom:10px;
+	margin-top:25px;}
+
+
+
+/* Section_services */
+
+section.services{
+	display:flex;
+	flex-wrap:wrap;}
+	
+img.services{padding:10px 0px;}
+
+p.services
+{
+	padding:10px 0px;
+	margin:10px 0px;
+	color:#838383;}
+	
+div.services
+{
+	background-color:#f5f5f5;
+	width:25%;
+	padding:70px 0px;
+	text-align:center;
+	line-height:1.5em;
+	letter-spacing:0.1em;}
 
 
 /* Section_works Style */
