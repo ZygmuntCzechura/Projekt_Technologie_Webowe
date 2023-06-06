@@ -1,6 +1,6 @@
 # Projekt na technologie Webowe
 
--Zagadnienia: utworzenie strony internetowej za pomocą html i css zgodnie z załączonymi materiałami do projektu.
+- Zagadnienia: utworzenie strony internetowej za pomocą html i css zgodnie z załączonymi materiałami do projektu.
 
 ## Problem, cel
 
